@@ -28,7 +28,7 @@ Send SMS to all the clients’ campaign contact list. SMS can be sent to all the
 
 ##Steps to deploy Campaign Monitor with Nexmo SMS app
 
-1.  Visit the target Git repository using the [URL](https://github.com/AdvaiyaLabs/Campaign-Monitor-with-Nexmo-SMS/blob/master/Package/Constant%20Contact%20with%20Nexmo%20SMS.exe)
+1.  Visit the target Git repository using the [URL](https://github.com/AdvaiyaLabs/Campaign-Monitor-with-Nexmo-SMS.git)
 
 2.  Click on **Download Zip**; app’s .exe file will get downloaded
 
