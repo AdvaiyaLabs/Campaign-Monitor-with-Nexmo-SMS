@@ -1,0 +1,187 @@
+﻿.body
+{
+    background-color: #fff;
+}
+.highlightUserCell
+{
+    background-color: yellow;
+}
+
+
+#addEntity
+{
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#usersTable
+{
+    padding: 5px;
+}
+#TrialMessage
+{
+    position: relative;
+    color:Red;
+}
+#saveDefaults
+{
+    margin: 5px;
+    cursor: pointer;
+    font-family:'Segoe UI';
+}
+#entities
+{
+    margin: 5px;
+    margin-left: 0px;
+    padding: 2px;
+    margin-top: 10px;
+    width: 280px;
+    position: absolute;
+}
+#entities ul
+{
+    margin: 5px;
+}
+#entities li
+{
+    list-style-type: none;
+    padding: 2px;
+    text-decoration: underline;
+}
+#entities li a
+{
+    margin-left: 5px;
+    display: inline-block;
+}
+#entities li .ui-icon-close
+{
+    width: 15px;
+    margin-right: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    display: inline-block;
+    text-indent: 0px;
+}
+#defaults
+{
+    width: 500px;
+    padding: 2px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 215px;
+    position: absolute;
+
+}
+#defaults input, select
+{
+    padding: 2px;
+    margin-left: 10px;
+}
+#defaults select
+{
+    width: 368px;
+}
+
+.areaHeader
+{
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+}
+#editDialog input
+{
+    width: 640px;
+    padding: 2px;
+    margin-left: 10px;
+    position: relative;
+}
+#entityName
+{
+    width: 350px;
+}
+.ui-autocomplete 
+{
+    max-height: 250px;
+    width: 350px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    padding-right: 20px;
+}
+#progressSpinner
+{
+    background: url(/_imgs/AdvFind/progress.gif) no-repeat center 70%;
+    background-color: #CCCCCC;
+    height: 100px;
+    width: 250px;
+    border: #aaaaaa 1px solid;
+}
+#progressText
+{ 
+    text-align: center;
+    font: 16px bolder;
+    font-family: Segoe UI, Tahoma, Arial;
+    padding-top: 10px;
+}
+/*Style for nexmo right section*/
+#defaults.pageWrapper{
+	width:auto;
+}
+.logoWrapper{
+	margin:20px 0 30px 0;
+}
+.tableStyle .areaHeader{
+	color:#0099c7;
+	font-size:20px;
+	font-family:"Segoe UI Light", "Segoe UI";
+	padding-bottom:30px;
+}
+.tableStyle{
+	width:100%;
+	font-size:14px;
+	font-family:'Segoe UI';
+}
+.tableStyle>tbody>tr>td{
+	padding:7px 0;
+}
+.tableStyle>tbody>tr>td label{
+	position:relative;
+	top:-3px;
+}
+.tableStyle .auto-style2{
+	width:30%;
+	min-width:150px;
+}
+.tableStyle .auto-style1{width:70%;}
+.blueBtn{
+	background:#0099c7;
+	padding:10px 15px;
+	color:#fff;
+	border:none;
+	font-size:16px;
+}
+#defaults .tableStyle input[type=text], .customTxtBox{
+	border:1px solid #ccc;
+	height:26px;
+	width:100%;
+}
+.customCheckBox{
+	width:20px;
+	height:20px
+}
+.w60{width:60%;}
+
+@media (max-width:767px){
+	#defaults.pageWrapper{
+		margin-left:0;
+		position:relative;
+		padding:10px;
+	}
+}
+
+.formField {
+	width:100% !important;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<settings>
+  <nexmo>
+    <api>5b2a23d7</api>
+    <secretkey>59d9fa03</secretkey>
+    <fromnumber>919222010055</fromnumber>
+  </nexmo>
+  <campaignmonitor>
+    <api></api>
+    <phonenumberfield>mobile_number</phonenumberfield>
+  </campaignmonitor>
+</settings>
