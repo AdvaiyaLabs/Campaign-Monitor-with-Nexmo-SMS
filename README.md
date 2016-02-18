@@ -30,7 +30,7 @@ Send SMS to all the clients’ campaign contact list. SMS can be sent to all the
 
 1.  Visit the target Git repository using the [URL](https://github.com/AdvaiyaLabs/Campaign-Monitor-with-Nexmo-SMS.git)
 
-2.  Click on **Download Zip**; app’s .exe file will get downloaded
+2.  Click on **Download Zip**; app’s Zip file will get downloaded
 
 3.  Extract the app code
 
